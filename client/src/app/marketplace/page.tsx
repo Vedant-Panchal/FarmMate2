@@ -1,9 +1,18 @@
-import React from 'react'
+import ProductCards, { marketplaceData } from "@/components/ProductsCard";
+import React from "react";
 
 function page() {
   return (
-    <div>page</div>
-  )
+    marketplaceData.map((product) => (
+      <ProductCards
+        key={product.id}
+        title={product.title}
+        description={product.description}
+        price={product.price}
+        image={product.image}
+      />
+    ))
+  );
 }
 
-export default page
+export default page;

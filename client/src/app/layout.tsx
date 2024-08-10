@@ -16,7 +16,7 @@ const rye = Rye({
   variable: "--font-rye",
 });
 export const fontrye = rye.className;
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Farm Mate",
   description: "Your one stop destination for all things related farming",
 };
@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(inter.className, "relative")}>{children}</body>
+      <body className={fontjosefin}>{children}</body>
     </html>
   );
 }

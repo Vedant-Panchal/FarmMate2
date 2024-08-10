@@ -1,4 +1,4 @@
-import ProductsCards from "@/components/ProductsCards";
+import ProductsCards from "@/components/ProductsCard";
 import Image from "next/image";
 import Section1 from "@/components/Home/Section1";
 import Section2 from "@/components/Home/Section2";
@@ -11,7 +11,6 @@ export default function Home() {
       <Section1 />
       <Section2 />
       <Section3 />
-      <ProductsCards />
       <Footer />
     </main>
   );
