@@ -1,30 +1,50 @@
-import React from "react";
+import React from 'react'
 
-function Section3() {
+
+const Section3 = () => {
   return (
-    <div className="h-max mb-10 py-10 w-max  bg-gray-100 rounded-lg px-20">
-      <div className="py-4 flex-1 flex justify-center align-middle text-4xl">
-        <h1 className="font-medium">Why us?</h1>
-      </div>
-      <div className="py-8 flex justify-around gap-80 items-center text-lg">
-        <div className="flex justify-center flex-col items-center ">
-          <img src="https://www.ugaoo.com/cdn/shop/files/Packaging_2x_48553436-be2f-4d7a-a08e-495c8665abae_small.png?v=1656421502" alt="Secure-recycle" className="size-14"/>
-          <h2>Secure and Recyclable</h2>
-          <h2>Packaging</h2>
-        </div>  
-        <div className="flex justify-center flex-col items-center">
-          <img src="https://www.ugaoo.com/cdn/shop/files/Returns_2x_9d73addf-8f69-42d6-b602-79cc4bb7b28d_small.png?v=1656421516" alt="free replacements" className="size-14" />
-          <h2>Free Replacements if</h2>
-          <h2>Damaged</h2>
+    <div className='flex flex-col items-start w-full px-16'>
+        <div className='font-bold text-4xl pb-2'>Popular Categories</div>
+
+        <div className='flex items-center w-full py-5 pb-2 gap-6 '>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg  '>
+              <img src='/Cereals.png'/>
+            Cereals and Grains</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+              <img src=''/>
+              Pulses</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+              <img src='/oilseeds.png'/>
+              Oilseeds</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>Cash Crops</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+            <img src= '/fruits-1.png'/>
+              Fruits</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+              <img src='/vegetable.png'/>
+              
+              Vegetables</button>
+            
         </div>
-        <div className="flex justify-center flex-col items-center">
-          <img src="https://www.ugaoo.com/cdn/shop/files/Pot_2x_296c9f06-b47d-4dc9-b00e-18c42a3e165e_small.png?v=1656421532" alt="self watering" className="size-14" />
-          <h2>Self-Watering Pots with</h2>
-          <h2>Every Plant</h2>
+
+        <div className='flex items-center w-full gap-6 py-3 pb-10'>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+                
+                Spices</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>Plantation Crops</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+              <img src='/flower.png'/>
+              Flowers</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+            Medicinal and Aromatic Plants</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>Fodder Crops</button>
+            <button className='w-44 h-48 outline outline-offset-2 outline-1 outline-gray-300 hover:outline-2 hover:outline-green-600 rounded-lg '>
+              <img src='/fibers.png'/>
+              Fibers</button>
+            
         </div>
-      </div>
     </div>
-  );
+  )
 }
 
-export default Section3;
+export default Section3
