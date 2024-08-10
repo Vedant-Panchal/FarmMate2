@@ -25,15 +25,12 @@ function Section1() {
         modules={[Autoplay, Pagination, Navigation]}
         className="w-full h-full"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img src="https://t4.ftcdn.net/jpg/03/33/59/69/360_F_333596901_9lw7fccFZwM0sPh8ShtztK8X8N1rXpsX.jpg" alt="Slide1" 
+        className="w-full h-full object-center object-cover"/></SwiperSlide>
+        <SwiperSlide><img src="https://images.unsplash.com/photo-1618684707276-5b4b7230af8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFncmljdWx0dXJlJTIwZmllbGR8ZW58MHx8MHx8fDA%3D" alt="slide2" 
+        className="w-full h-full object-center object-cover" /></SwiperSlide>
+        <SwiperSlide> <img src="https://media.istockphoto.com/id/1386558891/photo/female-farmer-spraying-pesticide-in-green-field-during-springtime.jpg?s=612x612&w=0&k=20&c=pQE9wpYNVBQZxhM6UDZa5e5dggwdWzGRIr5tCI0CKNk=" alt="Slide 3" 
+        className="w-full h-full object-center object-cover"/></SwiperSlide>
       </Swiper>
     </div>
   );
